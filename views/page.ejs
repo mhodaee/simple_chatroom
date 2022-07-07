@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <title>NodeJS WebSocket Test 01</title>
+	    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+    <body>
+        <div><h3>THE MOST AMAZINGLY SIMPLE CHATROOM!</h3></div>
+		-------------------------------------------------------------------------------
+		<div>Hello <%= username %>! Welcome to the chat room!</div>
+		-------------------------------------------------------------------------------
+		<br/>
+	    <div id="chat" style="line-height:130%"></div><br/><br/>
+		
+		<input type="text" id="msg" name="msg" size=50 autofocus><br>
+		<button id="send_button">Send</button>
+		<button id="buzz_button">Buzz!</button>
+		<button id="rollcall">Who's present?</button>
+		
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
